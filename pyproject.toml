@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aurdino_touche"
+version = "0.1.0"
+description = ""
+authors = ["Christo <christotantony2003@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tk = "^0.1.0"
+matplotlib = "^3.7.1"
+pyserial = "^3.5"
+python-rtmidi = "^1.4.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
